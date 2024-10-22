@@ -1,0 +1,28 @@
+
+$font-base: "Cormorant Upright", serif;
+$font-alt: "Open Sans", sans-serif;
+
+$color-golden: #dcca87;
+$color-black: #0c0c0c;
+$color-gray: #545454;
+$color-crimson: #f5efdb;
+$color-grey: #aaaaaa;
+$color-white: #ffffff;
+
+.app__footerOverlay {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    
+    &-black {
+        height: 25%;
+        background: $color-black;
+    }
+
+    &-img {
+        height: 75%;
+    }
+}
